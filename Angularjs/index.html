@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html ng-app="myApp">
+<head lang="en" >
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="node_modules/bootstrap/dist/css/bootstrap.min.css"/>
+    <title></title>
+</head>
+<body>
+
+<div class="container">
+    <div ng-controller="mainController">
+
+       <!-- <div>
+            <label for="">Question</label>
+            <input type="text" ng-model="handle"/>
+        </div>
+
+
+        <div class="alert" ng-class="{ 'alert-warning': handle.length < characters }" ng-show="handle.length !== characters">
+
+
+            <div ng-show="handle.length < characters"> less 5</div>
+            <div ng-show="handle.length > characters"> more 5</div>
+        </div>
+
+
+        <h1>twitter/{{ toLowerCase() }}</h1>
+
+        <h3>Rules</h3>
+
+        <ul >
+            <li ng-repeat="rule in rules">{{ rule.rulename }}</li>
+        </ul>-->
+
+        <!-- directives part2 -->
+
+        <button class="btn" ng-click="alertClick()">click</button>
+        <div ng-cloack>{{name}}</div>
+    </div>
+</div>
+
+
+<script src="app.js"></script>
+</body>
+</html>

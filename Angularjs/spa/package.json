@@ -1,0 +1,17 @@
+{
+  "name": "Angularjs",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "angular": "^1.4.5"
+  },
+  "dependencies": {
+    "bootstrap": "^3.3.5"
+  }
+}
